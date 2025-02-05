@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: #f0f0f0;
+}
+
+.sec2{
+    height: 580px;
+}
+.ajedrez {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0;
+    width: 400px;
+    height: 480px; 
+    padding: 10px;
+}
+  
+  
+.casilla {
+    width: 64px;
+    height: 64px;
+ }
+  
+  .blanco {
+    background-color: #0A2864;
+  }
+  
+  .negro {
+    background-color: #E3D6A2;
+  }
+
+  img{
+    width: 55px;
+    height: 55px;
+  }
+  
